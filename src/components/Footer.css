@@ -1,0 +1,18 @@
+.footer-container {
+  width: 100%;
+  background: #86898b;
+  padding: 50px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+}
+
+.footer-logo {
+  font-size: 36px;
+  font-weight: 900;
+}

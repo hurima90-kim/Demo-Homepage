@@ -1,0 +1,78 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 270px;
+  color: #000;
+  background: #fff;
+  opacity: 95%;
+}
+
+.logo {
+  width: 120px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.logo p {
+  padding: 0;
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.nav-menu {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-item {
+  width: 150px;
+  text-align: right;
+}
+
+.nav-item a:link {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-item a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.btn {
+  width: 120px;
+  height: 30px;
+}
+
+.btn:first-child {
+  background: transparent;
+  color: #86898b;
+  border: 1px solid #86898b;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+.btn:last-child {
+  border: none;
+  background: #86898b;
+  color: #fff;
+  border-radius: 8px;
+}
